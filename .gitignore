@@ -1,2 +1,11 @@
-/target
-/src/config/.env
+# Ignore Rust build artifacts
+target/
+
+# Ignore VS Code settings file
+.vscode/
+
+# Ignore user stories (For the developer eyes only)
+stories/
+
+# Ignore .env files
+*.env
